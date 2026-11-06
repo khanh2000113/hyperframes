@@ -1,0 +1,10 @@
+{
+  "skills": [
+    {
+      "name": "hyperframes",
+      "description": "Tạo video Kinetic Typography chuyển động chữ nghệ thuật dài 8 giây dựa trên đoạn văn bản nhập vào.",
+      "command": "bun run skills/render.js --text \"{{prompt}}\" --output shared-data/output.mp4",
+      "output_path": "shared-data/output.mp4"
+    }
+  ]
+}
