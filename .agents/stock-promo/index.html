@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: Display;
+        src: url("assets/display.ttf");
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      html,
+      body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #060d19;
+      }
+      #root {
+        width: 1080px;
+        height: 1920px;
+        position: relative;
+        font-family: Display, sans-serif;
+        color: #f0f4fa;
+        overflow: hidden;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        background: #060d19;
+        overflow: hidden;
+        background-image: radial-gradient(ellipse at 85% 80%, #102b35 0%, #060d19 65%);
+      }
+      .scene:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(#829bb10a 1px, transparent 1px),
+          linear-gradient(90deg, #829bb10a 1px, transparent 1px);
+        background-size: 90px 90px;
+        pointer-events: none;
+      }
+      .scene-content {
+        width: 100%;
+        height: 100%;
+        padding: 235px 110px 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 35px;
+      }
+      .eyebrow {
+        font: 24px monospace;
+        letter-spacing: 5px;
+        color: #a3b5c8;
+      }
+      h1 {
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 1.26;
+        letter-spacing: -2.4px;
+        max-width: 860px;
+      }
+      .red {
+        color: #ff556c;
+        text-shadow: 0 0 30px #ff33445c;
+        display: inline-block;
+      }
+      .green {
+        color: #39edaf;
+      }
+      .gold {
+        color: #e8c575;
+        background: linear-gradient(110deg, #c5933e, #fff0bb, #c69643, #f9dfa0);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline;
+      }
+      .rule {
+        height: 3px;
+        width: 100px;
+        background: #8398ac;
+      }
+      .sub {
+        font: 22px monospace;
+        letter-spacing: 3px;
+        color: #a3b5c8;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="15"
+      data-width="1080"
+      data-height="1920"
+    >
+      <section
+        id="s0"
+        class="scene clip"
+        data-start="0"
+        data-duration="5.3"
+        data-track-index="0"
+        style="z-index: 0"
+      >
+        <div class="scene-content" data-layout-allow-overlap data-layout-allow-occlusion>
+          <div class="eyebrow">01 / TÂM LÝ</div>
+          <h1>Thị trường chứng khoán không dành cho sự <span class="red">nóng vội.</span></h1>
+          <div class="rule"></div>
+          <div class="sub">KIÊN NHẪN LÀ LỢI THẾ</div>
+        </div>
+      </section>
+      <section
+        id="s1"
+        class="scene clip"
+        data-start="0"
+        data-duration="10.3"
+        data-track-index="1"
+        style="z-index: 1"
+      >
+        <div class="scene-content" data-layout-allow-overlap data-layout-allow-occlusion>
+          <div class="eyebrow">02 / KỶ LUẬT</div>
+          <h1>
+            Dữ liệu biến động mỗi giây, nhưng <span class="green">lợi nhuận bền vững</span> đến từ
+            <span class="green">kỷ luật.</span>
+          </h1>
+          <div class="rule"></div>
+          <div class="sub">DỮ LIỆU DẪN ĐƯỜNG</div>
+        </div>
+      </section>
+      <section
+        id="s2"
+        class="scene clip"
+        data-start="0"
+        data-duration="15"
+        data-track-index="2"
+        style="z-index: 2"
+      >
+        <div class="scene-content" data-layout-allow-overlap data-layout-allow-occlusion>
+          <div class="eyebrow">03 / TƯƠNG LAI</div>
+          <h1>
+            <span class="gold">Đầu tư thông minh</span> ngay hôm nay để làm chủ
+            <span class="gold">tương lai tài chính.</span>
+          </h1>
+          <div class="rule"></div>
+          <div class="sub">BẮT ĐẦU TỪ HÔM NAY</div>
+        </div>
+      </section>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      for (let i = 0; i < 3; i++) {
+        let t = i * 5;
+        tl.from(
+          "#s" + i + " .eyebrow",
+          { opacity: 0, x: -25, duration: 0.6, ease: "power2.out" },
+          t + 0.1,
+        );
+        tl.from(
+          "#s" + i + " h1",
+          { opacity: 0, y: 40, duration: 0.75, ease: "power3.out" },
+          t + 0.15,
+        );
+        tl.from(
+          "#s" + i + " .rule",
+          { scaleX: 0, transformOrigin: "left", duration: 0.65, ease: "expo.out" },
+          t + 0.3,
+        );
+        tl.from(
+          "#s" + i + " .sub",
+          { opacity: 0, y: 15, duration: 0.6, ease: "sine.out" },
+          t + 0.4,
+        );
+      }
+      tl.from("#s1", { y: 1920, duration: 0.65, ease: "power3.inOut" }, 4.65);
+      tl.from(
+        "#s2",
+        { opacity: 0, scale: 0.72, filter: "blur(24px)", duration: 0.65, ease: "power3.inOut" },
+        9.65,
+      );
+      tl.to(
+        "#s1",
+        { scale: 1.2, filter: "blur(18px)", duration: 0.65, ease: "power3.inOut" },
+        9.65,
+      );
+      tl.to(
+        ".red",
+        { x: 4, rotation: 0.6, duration: 0.07, repeat: 9, yoyo: true, ease: "sine.inOut" },
+        2,
+      );
+      tl.to(
+        "#s2 h1",
+        { scale: 1.025, duration: 1.1, repeat: 2, yoyo: true, ease: "sine.inOut" },
+        11.2,
+      );
+      window.__timelines.main = tl;
+    </script>
+  </body>
+</html>
