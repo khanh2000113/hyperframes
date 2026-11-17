@@ -56,3 +56,4 @@ shared-data/stock_promo_9x16.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/finance_video_export.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/finance_stickman_export.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/trap_compound_video.zip filter=lfs diff=lfs merge=lfs -text
+shared-data/trap_vo_stickman_video.zip filter=lfs diff=lfs merge=lfs -text
