@@ -1,0 +1,32 @@
+{
+  "voice": "Kokoro am_michael (local neural male)",
+  "gender": "Male",
+  "language": "en-US",
+  "narration": [
+    {
+      "file": "hook.mp3",
+      "start": 0.25,
+      "text": "In, on, at? So confusing!"
+    },
+    {
+      "file": "in.mp3",
+      "start": 4.45,
+      "text": "In. In a box."
+    },
+    {
+      "file": "on.mp3",
+      "start": 10.45,
+      "text": "On. On the table."
+    },
+    {
+      "file": "at.mp3",
+      "start": 16.65,
+      "text": "At. At the bus stop."
+    },
+    {
+      "file": "outro.mp3",
+      "start": 22.3,
+      "text": "Save this video for later!"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules/
+models/
+.hyperframes/
+.cache/
+__pycache__/
+*.mp4
+renders/
+.env
+
+!deliverables/
+!deliverables/output.mp4
+!deliverables/in-on-at-source.zip

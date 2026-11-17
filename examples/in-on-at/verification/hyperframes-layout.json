@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "duration": 26,
+  "samples": [1.3, 7.6, 14, 19.3, 24.5],
+  "tolerance": 2,
+  "strict": false,
+  "collapseStatic": true,
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 0,
+  "infoCount": 0,
+  "issueCount": 0,
+  "totalIssueCount": 0,
+  "truncated": false,
+  "issues": [],
+  "_meta": {
+    "version": "0.9.61",
+    "updateAvailable": false,
+    "deprecated": true
+  }
+}

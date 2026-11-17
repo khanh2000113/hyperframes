@@ -204,3 +204,7 @@ __pycache__/
 
 # Tracked lightweight companion app
 !.agents/remotion-app/
+
+# Completed IN / ON / AT lesson and delivery assets.
+!examples/in-on-at/
+!examples/in-on-at/**

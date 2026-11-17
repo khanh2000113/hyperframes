@@ -1,0 +1,34 @@
+{
+  "name": "in-on-at-visual-scaffolding",
+  "version": "1.0.0",
+  "private": true,
+  "description": "26-second vertical English lesson. Shared deterministic SVG renderer for Remotion and HyperFrames.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node scripts/render.mjs",
+    "build:hyperframes": "esbuild src/hyperframes.tsx --bundle --format=iife --outfile=public/lesson.js && esbuild src/gsap.ts --bundle --format=iife --minify --outfile=public/gsap.min.js",
+    "preview:hyperframes": "hyperframes preview",
+    "render:hyperframes": "hyperframes render --output output-hyperframes.mp4 --fps 30 --quality high",
+    "typecheck": "tsc --noEmit",
+    "audio": "python scripts/audio.py"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.544",
+    "@remotion/cli": "4.0.544",
+    "@remotion/renderer": "4.0.544",
+    "gsap": "3.14.2",
+    "hyperframes": "0.9.61",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.544"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

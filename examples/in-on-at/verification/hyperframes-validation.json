@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "contrast": [],
+  "contrastFailures": 0,
+  "_meta": {
+    "version": "0.9.61",
+    "updateAvailable": false,
+    "deprecated": true
+  }
+}

@@ -57,3 +57,7 @@ shared-data/finance_video_export.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/finance_stickman_export.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/trap_compound_video.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/trap_vo_stickman_video.zip filter=lfs diff=lfs merge=lfs -text
+
+# IN / ON / AT lesson delivery binaries and bundled fonts.
+examples/in-on-at/deliverables/* filter=lfs diff=lfs merge=lfs -text
+examples/in-on-at/public/*.ttf filter=lfs diff=lfs merge=lfs -text

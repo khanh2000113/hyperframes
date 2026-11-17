@@ -17,7 +17,8 @@
     "registry/blocks/frost-sequence-camera-orbit/source/**",
     "registry/examples/path-traced-3d/assets/vendor/*.min.js",
     "chrome/",
-    "packages/cli/src/media-use/lib/svg-sanitize.mjs"
+    "packages/cli/src/media-use/lib/svg-sanitize.mjs",
+    "examples/in-on-at/public/*.js"
   ],
   "overrides": [
     {
