@@ -1,0 +1,194 @@
+{
+  "fps": 30,
+  "frames": 825,
+  "beats": [
+    {
+      "number": 1,
+      "start": 0,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/record_scratch.wav",
+          "offset": 27
+        },
+        {
+          "file": "sfx/error_beep.wav",
+          "offset": 39
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "start": 75,
+      "frames": 60,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/crumble.wav",
+          "offset": 0
+        },
+        {
+          "file": "sfx/pop.wav",
+          "offset": 13
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 22
+        },
+        {
+          "file": "sfx/pop_high_1.wav",
+          "offset": 31
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "start": 135,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/whoosh.wav",
+          "offset": 0
+        },
+        {
+          "file": "sfx/vacuum.wav",
+          "offset": 25
+        },
+        {
+          "file": "sfx/pop.wav",
+          "offset": 49
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "start": 210,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/click.wav",
+          "offset": 9
+        },
+        {
+          "file": "sfx/ding.wav",
+          "offset": 29
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "start": 285,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/snap.wav",
+          "offset": 0
+        },
+        {
+          "file": "sfx/boing.wav",
+          "offset": 18
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "start": 360,
+      "frames": 90,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/pop.wav",
+          "offset": 13
+        },
+        {
+          "file": "sfx/rain_short.wav",
+          "offset": 19
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "start": 450,
+      "frames": 60,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/umbrella_pop.wav",
+          "offset": 7
+        },
+        {
+          "file": "sfx/ding.wav",
+          "offset": 23
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "start": 510,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/whoosh.wav",
+          "offset": 0
+        },
+        {
+          "file": "sfx/tick_tock.wav",
+          "offset": 14
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "start": 585,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/buzzer.wav",
+          "offset": 12
+        },
+        {
+          "file": "sfx/chime.wav",
+          "offset": 37
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "start": 660,
+      "frames": 75,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/pop.wav",
+          "offset": 7
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 25
+        },
+        {
+          "file": "sfx/pop_high_1.wav",
+          "offset": 43
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "start": 735,
+      "frames": 90,
+      "voice": [],
+      "cues": [
+        {
+          "file": "sfx/reverse_whoosh.wav",
+          "offset": 55
+        }
+      ]
+    }
+  ]
+}
