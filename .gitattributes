@@ -76,3 +76,8 @@ shared-data/in_on_at_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text
 shared-data/see_look_watch_visual.mp4 filter=lfs diff=lfs merge=lfs -text
 shared-data/see_look_watch_visual_source.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/see_look_watch_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text
+
+# SAY · TELL · SPEAK visual lesson delivery files.
+shared-data/say_tell_speak_visual.mp4 filter=lfs diff=lfs merge=lfs -text
+shared-data/say_tell_speak_visual_source.zip filter=lfs diff=lfs merge=lfs -text
+shared-data/say_tell_speak_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text
