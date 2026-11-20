@@ -66,3 +66,8 @@ examples/in-on-at/public/*.ttf filter=lfs diff=lfs merge=lfs -text
 shared-data/secret_of_off.mp4 filter=lfs diff=lfs merge=lfs -text
 shared-data/secret_of_off_source.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/secret_of_off_stills/*.png filter=lfs diff=lfs merge=lfs -text
+
+# IN · ON · AT visual lesson delivery files.
+shared-data/in_on_at_visual.mp4 filter=lfs diff=lfs merge=lfs -text
+shared-data/in_on_at_visual_source.zip filter=lfs diff=lfs merge=lfs -text
+shared-data/in_on_at_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text

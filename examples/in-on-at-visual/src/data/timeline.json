@@ -1,0 +1,238 @@
+{
+  "fps": 30,
+  "frames": 750,
+  "beats": [
+    {
+      "number": 1,
+      "start": 0,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/record_scratch.wav",
+          "offset": 0,
+          "gain": 0.28,
+          "rate": 1
+        },
+        {
+          "file": "sfx/error_beep.wav",
+          "offset": 10,
+          "gain": 0.22,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "start": 75,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/snap.wav",
+          "offset": 0,
+          "gain": 0.28,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop.wav",
+          "offset": 12,
+          "gain": 0.27,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 22,
+          "gain": 0.24,
+          "rate": 1
+        },
+        {
+          "file": "sfx/ding.wav",
+          "offset": 34,
+          "gain": 0.2,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "start": 150,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/whoosh.wav",
+          "offset": 0,
+          "gain": 0.21,
+          "rate": 1
+        },
+        {
+          "file": "sfx/boing.wav",
+          "offset": 16,
+          "gain": 0.25,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop.wav",
+          "offset": 30,
+          "gain": 0.27,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "start": 225,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/click.wav",
+          "offset": 8,
+          "gain": 0.24,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 26,
+          "gain": 0.24,
+          "rate": 1
+        },
+        {
+          "file": "sfx/chime.wav",
+          "offset": 42,
+          "gain": 0.2,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "start": 300,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/snap.wav",
+          "offset": 0,
+          "gain": 0.28,
+          "rate": 1
+        },
+        {
+          "file": "sfx/whoosh.wav",
+          "offset": 12,
+          "gain": 0.21,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop.wav",
+          "offset": 24,
+          "gain": 0.27,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "start": 375,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/click.wav",
+          "offset": 8,
+          "gain": 0.24,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 26,
+          "gain": 0.24,
+          "rate": 1
+        },
+        {
+          "file": "sfx/ding.wav",
+          "offset": 40,
+          "gain": 0.2,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "start": 450,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/whoosh.wav",
+          "offset": 0,
+          "gain": 0.21,
+          "rate": 1
+        },
+        {
+          "file": "sfx/snap.wav",
+          "offset": 14,
+          "gain": 0.28,
+          "rate": 1
+        },
+        {
+          "file": "sfx/ding.wav",
+          "offset": 28,
+          "gain": 0.2,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "start": 525,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/buzzer.wav",
+          "offset": 4,
+          "gain": 0.23,
+          "rate": 1
+        },
+        {
+          "file": "sfx/chime.wav",
+          "offset": 34,
+          "gain": 0.2,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "start": 600,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/pop.wav",
+          "offset": 6,
+          "gain": 0.27,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 24,
+          "gain": 0.24,
+          "rate": 1
+        },
+        {
+          "file": "sfx/pop_high.wav",
+          "offset": 42,
+          "gain": 0.24,
+          "rate": 1.15
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "start": 675,
+      "frames": 75,
+      "cues": [
+        {
+          "file": "sfx/reverse_whoosh.wav",
+          "offset": 61,
+          "gain": 0.21,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}
