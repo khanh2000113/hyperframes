@@ -71,3 +71,8 @@ shared-data/secret_of_off_stills/*.png filter=lfs diff=lfs merge=lfs -text
 shared-data/in_on_at_visual.mp4 filter=lfs diff=lfs merge=lfs -text
 shared-data/in_on_at_visual_source.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/in_on_at_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text
+
+# SEE · LOOK · WATCH visual lesson delivery files.
+shared-data/see_look_watch_visual.mp4 filter=lfs diff=lfs merge=lfs -text
+shared-data/see_look_watch_visual_source.zip filter=lfs diff=lfs merge=lfs -text
+shared-data/see_look_watch_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text
