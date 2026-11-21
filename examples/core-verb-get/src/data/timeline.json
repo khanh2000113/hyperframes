@@ -1,0 +1,226 @@
+{
+  "id": "CoreVerbGet",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 780,
+  "beats": [
+    {
+      "id": "playground",
+      "start": 0,
+      "duration": 90
+    },
+    {
+      "id": "core-hub",
+      "start": 90,
+      "duration": 90
+    },
+    {
+      "id": "receive",
+      "start": 180,
+      "duration": 105
+    },
+    {
+      "id": "become",
+      "start": 285,
+      "duration": 105
+    },
+    {
+      "id": "arrive",
+      "start": 390,
+      "duration": 105
+    },
+    {
+      "id": "understand",
+      "start": 495,
+      "duration": 105
+    },
+    {
+      "id": "mind-map",
+      "start": 600,
+      "duration": 105
+    },
+    {
+      "id": "loop",
+      "start": 705,
+      "duration": 75
+    }
+  ],
+  "audio": [
+    {
+      "frame": 0,
+      "effect": "record_scratch",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 10
+    },
+    {
+      "frame": 16,
+      "effect": "pop",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 4
+    },
+    {
+      "frame": 28,
+      "effect": "pop_high",
+      "gain": 0.22,
+      "rate": 1,
+      "duration": 4
+    },
+    {
+      "frame": 48,
+      "effect": "error_beep",
+      "gain": 0.19,
+      "rate": 1,
+      "duration": 7
+    },
+    {
+      "frame": 90,
+      "effect": "whoosh",
+      "gain": 0.14,
+      "rate": 1,
+      "duration": 15
+    },
+    {
+      "frame": 116,
+      "effect": "snap",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 3
+    },
+    {
+      "frame": 130,
+      "effect": "ding",
+      "gain": 0.22,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 180,
+      "effect": "whoosh_soft",
+      "gain": 0.11,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 208,
+      "effect": "pop",
+      "gain": 0.23,
+      "rate": 1,
+      "duration": 4
+    },
+    {
+      "frame": 226,
+      "effect": "click",
+      "gain": 0.2,
+      "rate": 1,
+      "duration": 3
+    },
+    {
+      "frame": 285,
+      "effect": "whoosh_soft",
+      "gain": 0.11,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 317,
+      "effect": "boing",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 10
+    },
+    {
+      "frame": 335,
+      "effect": "pop",
+      "gain": 0.19,
+      "rate": 1,
+      "duration": 4
+    },
+    {
+      "frame": 390,
+      "effect": "whoosh_soft",
+      "gain": 0.11,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 430,
+      "effect": "click",
+      "gain": 0.22,
+      "rate": 1,
+      "duration": 3
+    },
+    {
+      "frame": 444,
+      "effect": "ding",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 495,
+      "effect": "whoosh_soft",
+      "gain": 0.11,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 529,
+      "effect": "snap",
+      "gain": 0.25,
+      "rate": 1,
+      "duration": 3
+    },
+    {
+      "frame": 541,
+      "effect": "chime",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 14
+    },
+    {
+      "frame": 600,
+      "effect": "whoosh",
+      "gain": 0.14,
+      "rate": 1,
+      "duration": 15
+    },
+    {
+      "frame": 624,
+      "effect": "pop",
+      "gain": 0.23,
+      "rate": 1,
+      "duration": 4
+    },
+    {
+      "frame": 640,
+      "effect": "pop_high",
+      "gain": 0.23,
+      "rate": 1,
+      "duration": 4
+    },
+    {
+      "frame": 656,
+      "effect": "pop_high",
+      "gain": 0.23,
+      "rate": 1.12,
+      "duration": 4
+    },
+    {
+      "frame": 672,
+      "effect": "ding",
+      "gain": 0.24,
+      "rate": 1,
+      "duration": 11
+    },
+    {
+      "frame": 766,
+      "effect": "reverse_whoosh",
+      "gain": 0.13,
+      "rate": 1,
+      "duration": 14
+    }
+  ]
+}

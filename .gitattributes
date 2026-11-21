@@ -81,3 +81,5 @@ shared-data/see_look_watch_visual_stills/*.png filter=lfs diff=lfs merge=lfs -te
 shared-data/say_tell_speak_visual.mp4 filter=lfs diff=lfs merge=lfs -text
 shared-data/say_tell_speak_visual_source.zip filter=lfs diff=lfs merge=lfs -text
 shared-data/say_tell_speak_visual_stills/*.png filter=lfs diff=lfs merge=lfs -text
+
+shared-data/core_verb_get.mp4 filter=lfs diff=lfs merge=lfs -text
